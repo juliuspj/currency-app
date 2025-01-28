@@ -22,7 +22,7 @@
 				<div>
 					<input type="text" disabled placeholder="USD" />
 					<div class="select-container">
-						<select bind:value={currencyDesc}>
+						<select bind:value={currencyDesc2}>
 							{#each Object.entries($values) as [key2, index2]}
 								<option value={index2}>{key2}</option>
 							{/each}
