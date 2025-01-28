@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { fetchValues, values } from './store.svelte';
 
-	let b: any;
 	let from = $state('');
 
 	let result = { ['']: [''] };
